@@ -1,0 +1,64 @@
+/* Angular Material Theme Tokens */
+/* Generated from MUI export.json */
+
+@use "@angular/material" as mat;
+
+/* Light Theme */
+:root, :host {
+  @include mat.theme-overrides((
+    primary: #2196f3, // Blue (kékes árnyalat)
+    on-primary: #ffffff,
+    primary-container: #bbdefb,
+    on-primary-container: #0d47a1,
+    secondary: #f5a623,
+    on-secondary: #ffffff,
+    secondary-container: #ffe082,
+    on-secondary-container: #ff6f00,
+    background: #ffffff,
+    on-background: #000000,
+    surface: #ffffff,
+    surface-container-lowest: #ffffff,
+    surface-container-low: #f7f7f7,
+    surface-container: #f0f0f0,
+    surface-container-high: #e0e0e0,
+    surface-container-highest: #d0d0d0,
+    on-surface: #000000,
+    error: #d32f2f,
+    on-error: #ffffff,
+    surface-variant: #e0e0e0,
+    on-surface-variant: #424242,
+    outline: #bdbdbd,
+    shadow: #000000,
+    scrim: #000000,
+  ));
+}
+
+/* Dark Theme */
+.dark {
+  @include mat.theme-overrides((
+    primary: #90caf9, // Blue (kékes árnyalat)
+    on-primary: #0d47a1,
+    primary-container: #1565c0,
+    on-primary-container: #bbdefb,
+    secondary: #f5a623,
+    on-secondary: #000000,
+    secondary-container: #ffcc80,
+    on-secondary-container: #ff6f00,
+    background: #121212,
+    on-background: #ffffff,
+    surface: #121212,
+    surface-container-lowest: #121212,
+    surface-container-low: #1e1e1e,
+    surface-container: #232323,
+    surface-container-high: #2e2e2e,
+    surface-container-highest: #383838,
+    on-surface: #ffffff,
+    error: #cf6679,
+    on-error: #000000,
+    surface-variant: #424242,
+    on-surface-variant: #e0e0e0,
+    outline: #757575,
+    shadow: #000000,
+    scrim: #000000,
+  ));
+}
