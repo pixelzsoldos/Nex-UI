@@ -6,7 +6,7 @@
 /* Light Theme */
 :root, :host {
   @include mat.theme-overrides((
-    primary: #2196f3, // Blue (kékes árnyalat)
+    primary: #0497bb, // Blue (kékes árnyalat)
     on-primary: #ffffff,
     primary-container: #bbdefb,
     on-primary-container: #0d47a1,
@@ -27,7 +27,7 @@
     on-error: #ffffff,
     surface-variant: #e0e0e0,
     on-surface-variant: #424242,
-    outline: #bdbdbd,
+    outline: #e0e0e0, // Updated outline color
     shadow: #000000,
     scrim: #000000,
   ));
@@ -36,7 +36,7 @@
 /* Dark Theme */
 .dark {
   @include mat.theme-overrides((
-    primary: #90caf9, // Blue (kékes árnyalat)
+    primary: #0497bb, // Blue (kékes árnyalat)
     on-primary: #0d47a1,
     primary-container: #1565c0,
     on-primary-container: #bbdefb,
@@ -57,7 +57,7 @@
     on-error: #000000,
     surface-variant: #424242,
     on-surface-variant: #e0e0e0,
-    outline: #757575,
+    outline: #e0e0e0, // Updated outline color
     shadow: #000000,
     scrim: #000000,
   ));
